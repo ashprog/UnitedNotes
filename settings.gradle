@@ -1,0 +1,2 @@
+rootProject.name='United Notes'
+include ':app'
