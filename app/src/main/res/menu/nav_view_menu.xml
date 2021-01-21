@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/saved_notes"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        android:title="Saved Notes" />
+    <item
+        android:id="@+id/your_notes"
+        android:icon="@drawable/ic_file_upload_black_24dp"
+        android:title="Your Notes" />
+</menu>

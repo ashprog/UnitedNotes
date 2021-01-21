@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "442233173424",
+    "firebase_url": "https://united-notes.firebaseio.com",
+    "project_id": "united-notes",
+    "storage_bucket": "united-notes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:442233173424:android:7db29a6c24a772487e5275",
+        "android_client_info": {
+          "package_name": "in.ashprog.unitednotes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "442233173424-909t5cjjj29nqrkcoqbjvog7aujo7nsd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBikJFAp0EEA1OsRZ_hOg6m9sOSR3AaPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "442233173424-909t5cjjj29nqrkcoqbjvog7aujo7nsd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".SpinnerFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/branchSpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginRight="2dp"
+                android:layout_weight="1"
+                android:background="@drawable/spinner_bg"
+                android:popupBackground="@android:color/transparent" />
+
+            <Spinner
+                android:id="@+id/semSpinner"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="2dp"
+                android:background="@drawable/spinner_bg"
+                android:popupBackground="@android:color/transparent" />
+
+        </LinearLayout>
+
+        <Spinner
+            android:id="@+id/subjectSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/spinner_bg"
+            android:popupBackground="@android:color/transparent" />
+
+    </LinearLayout>
+
+</FrameLayout>
